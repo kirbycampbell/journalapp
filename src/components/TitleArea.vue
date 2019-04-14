@@ -89,7 +89,13 @@ export default {
   float: right;
 }
 
+p {
+  padding-top: 0px;
+  line-height: 20px;
+}
+
 h1 {
+  padding-top: 0px;
   font-size: 40px;
   font-weight: thin;
   font-family: "Raleway", sans-serif;
