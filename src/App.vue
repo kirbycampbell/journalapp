@@ -2,6 +2,7 @@
   <div>
     <div id="app">
       <Header/>
+      <TitleArea/>
       <div class="container">
         <div class="sidebar">
           <ul class="menu" v-scroll-spy-active="{class: 'customActive'}" v-scroll-spy-link>
@@ -41,12 +42,14 @@
 import Vue from "vue";
 import Scrollspy from "vue2-scrollspy";
 import Header from "./components/Header";
+import TitleArea from "./components/TitleArea";
 Vue.use(Scrollspy);
 export default {
   methods: {},
   el: "#app",
   components: {
-    Header
+    Header,
+    TitleArea
   },
   data() {
     return {
@@ -67,7 +70,7 @@ body {
 }
 .sidebar {
   position: fixed;
-  top: 180px;
+  top: 780px;
   left: 10px;
   max-width: 230px;
   font-size: 18px;
