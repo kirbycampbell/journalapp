@@ -2,6 +2,10 @@
   <div class="header">
     <i class="fas fa-bars burger"></i>
     <h1>Council on Foreign Relations</h1>
+    <div class="mem-search">
+      <p class="mem">Member Login</p>
+      <i class="fas fa-search glass"></i>
+    </div>
     <div class="link-list">
       <div class="item">Trending</div>
       <div class="item">Sudan</div>
@@ -47,12 +51,33 @@ h1 {
   cursor: pointer;
 }
 
+.mem-search {
+  width: 20%;
+  display: flex;
+  float: right;
+  font-family: "Raleway", sans-serif;
+}
+.mem {
+  cursor: pointer;
+  color: rgb(204, 138, 17);
+  font-size: 15px;
+}
+.mem:hover {
+  color: black;
+}
+.glass {
+  margin-top: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
 .link-list {
   display: flex;
   width: 100%;
 }
 .item {
-  margin: 3%;
+  margin: 2%;
+  font-weight: bold;
   color: black;
   transition: color 1s;
 }
