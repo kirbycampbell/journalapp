@@ -1,6 +1,15 @@
 <template>
   <div class="header">
-    <h1>Hello Header</h1>
+    <i class="fas fa-bars burger"></i>
+    <h1>Council on Foreign Relations</h1>
+    <div class="link-list">
+      <div class="item">Trending</div>
+      <div class="item">Sudan</div>
+      <div class="item">Brexit</div>
+      <div class="item">Asylum</div>
+      <div class="item">Federal Reserve</div>
+      <div class="item">Measles</div>
+    </div>
   </div>
 </template>
 
@@ -12,16 +21,45 @@ export default {
 
 <style scoped>
 .header {
-  width: 100%;
-  height: 140px;
-  margin: 0;
-  padding: 0;
-  background: grey;
-  justify-items: center;
+  width: 90%;
+  height: 160px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 h1 {
   margin: 0;
   padding: 0;
+  width: 20%;
+  float: left;
+  font-weight: 100;
+  font-size: 27px;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+.burger {
+  font-size: 25px;
+  width: 5%;
+  margin-top: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.link-list {
+  display: flex;
+  width: 100%;
+}
+.item {
+  margin: 3%;
+  color: black;
+  transition: color 1s;
+}
+
+.item:hover {
+  color: orange;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 </style>

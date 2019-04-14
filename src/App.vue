@@ -67,7 +67,7 @@ body {
 }
 .sidebar {
   position: fixed;
-  top: 160px;
+  top: 180px;
   left: 10px;
   max-width: 230px;
   font-size: 18px;
