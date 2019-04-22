@@ -48,6 +48,30 @@
           </div>
         </div>
       </div>
+      <div class="footer">
+        <div class="footer-logo">Council On Foreign Relations</div>
+        <div class="footer-button">
+          <div class="btn-item">About CFR</div>
+          <div class="btn-item">Support CFR</div>
+          <div class="btn-item">Careers</div>
+        </div>
+        <div class="footer-button">
+          <div class="btn-item">Think Tank</div>
+          <div class="btn-item">Media</div>
+          <div class="btn-item">Contact Us</div>
+        </div>
+        <div class="news-sec">
+          <h2>Daily News Brief</h2>
+          <p>Sign up for a morning roundup of news and analysis from around the world.</p>
+        </div>
+        <div class="form-area">
+          <input class="email-form" placeholder="Email Address">
+          <input class="email-submit" type="submit">
+        </div>
+        <div
+          class="bottom-of-footer"
+        >©2019 Councilon Foreign Relations. All rights reserved. Privacy Policy and Terms of Use. Kirby Campbell Clone.</div>
+      </div>
     </div>
   </div>
 </template>
@@ -161,5 +185,90 @@ h1 {
 .data-img {
   height: 80%;
   width: 90%;
+}
+
+.container {
+  padding-bottom: 26rem;
+}
+
+.footer {
+  bottom: 0;
+  width: 94%;
+  align-content: center;
+  color: white;
+  justify-content: center;
+  margin: auto;
+  background: #412c26;
+  height: 22rem;
+  padding: 2rem;
+}
+
+.footer-logo {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  float: left;
+  font-weight: 100;
+  font-size: 27px;
+  font-family: "Raleway", sans-serif;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.footer-button {
+  display: flex;
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+.btn-item {
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: color 0.8s;
+}
+
+.btn-item:hover {
+  color: rgb(255, 113, 19);
+  transition: color 0.8s;
+}
+
+.news-sec {
+  float: right;
+  font-size: 14px;
+}
+.news-sec h2 {
+  font-size: 20px;
+  font-weight: none;
+  padding-bottom: 3px;
+  opacity: 0.4;
+  margin-bottom: 0;
+}
+.news-sec p {
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: none;
+  font-size: 20px;
+  opacity: 0.4;
+  width: 70%;
+}
+
+.bottom-of-footer {
+  margin-top: 10rem;
+  font-size: 14px;
+  margin-left: 3rem;
+}
+.form-area {
+  margin-top: 6rem;
+  margin-left: 3rem;
+}
+.email-form {
+  background: none;
+  border: none;
+  font-size: 18px;
+
+  border-bottom: 2px solid white;
+  margin-right: 10px;
 }
 </style>
