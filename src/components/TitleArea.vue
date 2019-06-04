@@ -84,11 +84,24 @@ export default {
 @media all and (max-width: 800px) {
   .title-section {
     display: flex;
+    width: 100vw;
     flex-direction: column;
   }
   .super-imp-title {
     width: 100%;
     text-align: center;
+  }
+
+  .left-chunk {
+    width: 100%;
+    padding-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+  }
+  .right-chunk {
+    width: 100%;
+    margin-top: 0;
+    padding-right: 0;
   }
 }
 
