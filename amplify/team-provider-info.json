@@ -1,0 +1,14 @@
+{
+    "vue": {
+        "awscloudformation": {
+            "AuthRoleName": "vue-journal-app-20190524193443-authRole",
+            "UnauthRoleArn": "arn:aws:iam::706688031207:role/vue-journal-app-20190524193443-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::706688031207:role/vue-journal-app-20190524193443-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "vue-journal-app-20190524193443-deployment",
+            "UnauthRoleName": "vue-journal-app-20190524193443-unauthRole",
+            "StackName": "vue-journal-app-20190524193443",
+            "StackId": "arn:aws:cloudformation:us-west-2:706688031207:stack/vue-journal-app-20190524193443/a8050940-7e95-11e9-8c29-0a6f6baba210"
+        }
+    }
+}

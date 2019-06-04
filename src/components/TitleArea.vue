@@ -74,6 +74,12 @@ export default {
   display: flex;
   margin-top: 16px;
 }
+@media all and (max-width: 800px){
+  .title-section {
+  display: flex;
+  flex-direction: column;
+  }
+}
 
 .left-chunk {
   width: 40%;
