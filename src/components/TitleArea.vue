@@ -1,14 +1,7 @@
 <template>
   <div>
     <div class="title-section">
-      <div class="left-chunk">
-        <h1>NAFTA’s Economic Impact</h1>
-        <p
-          class="par"
-        >President Trump has reached a deal with Canada and Mexico to restructure the North American Free Trade Agreement, hoping a new trilateral accord will reinvigorate the U.S. manufacturing sector.</p>
-        <h5>Backgrounder by James McBride and Mohammed Aly Sergie</h5>
-        <p class="ital">Last updated October 1, 2018</p>
-      </div>
+      <div class="super-imp-title">NAFTA’s Economic Impact</div>
       <div class="right-chunk">
         <img
           src="https://cfrd8-files.cfr.org/sites/default/files/styles/article_header_m_480px/public/image/2017/04/NAFTA-Header-1280x720.jpg"
@@ -17,6 +10,13 @@
         <p
           class="ital"
         >Mexican commercial trucks cross the border into the United States at Laredo, Texas. (Josue Gonzalez/Reuters)</p>
+      </div>
+      <div class="left-chunk">
+        <p
+          class="par"
+        >President Trump has reached a deal with Canada and Mexico to restructure the North American Free Trade Agreement, hoping a new trilateral accord will reinvigorate the U.S. manufacturing sector.</p>
+        <h5>Backgrounder by James McBride and Mohammed Aly Sergie</h5>
+        <p class="ital">Last updated October 1, 2018</p>
       </div>
     </div>
     <div class="divide">
@@ -39,6 +39,13 @@ export default {
 </script>
 
 <style scoped>
+.super-imp-title {
+  width: 100%;
+  padding-left: 10%;
+  margin-right: 6%;
+  overflow: hidden;
+  float: left;
+}
 .line {
   display: grid;
   background: grey;
@@ -74,10 +81,14 @@ export default {
   display: flex;
   margin-top: 16px;
 }
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
   .title-section {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+  }
+  .super-imp-title {
+    width: 100%;
+    text-align: center;
   }
 }
 
