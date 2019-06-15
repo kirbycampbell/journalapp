@@ -1,63 +1,148 @@
-.header {
-  width: 90%;
-  height: 160px;
-  margin: auto;
-  padding: 10px;
-  margin-top: 10px;
-}
+/* MOBILE VIEW */
+@media all and (max-width: 1000px) {
+  .header {
+    width: 94%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 1%;
+  }
 
-h1 {
-  margin: 0;
-  padding: 0;
-  width: 20%;
-  float: left;
-  font-weight: 100;
-  font-size: 27px;
-  font-family: "Raleway", sans-serif;
-  cursor: pointer;
-}
+  .site-title {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    float: left;
+    font-weight: 900;
+    color: rgb(65, 27, 6);
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+  }
 
-.burger {
-  font-size: 25px;
-  width: 5%;
-  margin-top: 10px;
-  float: left;
-  cursor: pointer;
-}
+  .burger {
+    font-size: 23px;
+    height: 10px;
+    width: 5%;
+    float: right;
+    cursor: pointer;
+  }
 
-.mem-search {
-  width: 20%;
-  display: flex;
-  float: right;
-  font-family: "Raleway", sans-serif;
-}
-.mem {
-  cursor: pointer;
-  color: rgb(204, 138, 17);
-  font-size: 15px;
-  padding: 0;
-}
-.mem:hover {
-  color: black;
-}
-.glass {
-  margin-top: 18px;
-  cursor: pointer;
-}
+  .mem-search {
+    width: 10%;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+    float: right;
+  }
+  .mem {
+    display: none;
+    cursor: pointer;
+    color: rgb(204, 138, 17);
+    font-size: 15px;
+    padding: 0;
+  }
+  .mem:hover {
+    color: black;
+  }
+  .glass {
+    margin-top: 18px;
+    cursor: pointer;
+  }
 
-.link-list {
-  display: flex;
-  width: 100%;
-}
-.item {
-  margin: 2%;
-  font-weight: bold;
-  color: black;
-  transition: color 1s;
-}
+  .link-list {
+    display: flex;
 
-.item:hover {
-  color: orange;
-  cursor: pointer;
-  transition: color 0.3s;
+    width: 100%;
+  }
+
+  .link-list .item:first-child {
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.6;
+    cursor: none;
+  }
+  .item {
+    margin-right: 4%;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    transition: color 1s;
+  }
+
+  .item:hover {
+    color: orange;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+}
+/* DESKTOP VIEW */
+@media all and (min-width: 1000px) {
+  .header {
+    width: 90%;
+    height: 160px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    float: left;
+    font-weight: 100;
+    font-size: 27px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+  }
+
+  .burger {
+    font-size: 25px;
+    width: 5%;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+  }
+
+  .mem-search {
+    width: 20%;
+    display: flex;
+    float: right;
+    font-family: "Raleway", sans-serif;
+  }
+  .mem {
+    cursor: pointer;
+    color: rgb(204, 138, 17);
+    font-size: 15px;
+    padding: 0;
+  }
+  .mem:hover {
+    color: black;
+  }
+  .glass {
+    margin-top: 18px;
+    cursor: pointer;
+  }
+
+  .link-list {
+    display: flex;
+    width: 100%;
+  }
+  .item {
+    margin: 2%;
+    font-weight: bold;
+    color: black;
+    transition: color 1s;
+  }
+
+  .item:hover {
+    color: orange;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
 }

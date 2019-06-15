@@ -1,5 +1,5 @@
 /* DESKTOP VIEW */
-@media all and (min-width: 800px) {
+@media all and (min-width: 1000px) {
   .title-outer {
     width: 90%;
     height: 160px;
@@ -110,13 +110,11 @@
 }
 
 /* MOBILE VIEW */
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
   .title-outer {
-    width: 90%;
-
+    width: 92%;
     margin: auto;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 2%;
   }
   .title-section {
     display: flex;
@@ -142,10 +140,11 @@
   }
 
   .super-imp-title {
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    font-weight: bold;
     font-size: 22px;
-    margin-bottom: 16px;
+    margin-bottom: 22px;
+    color: rgb(87, 37, 4);
     overflow: hidden;
     float: left;
     text-align: left;
@@ -156,7 +155,7 @@
     border-radius: 6px;
     font-size: 1.7px;
     opacity: 0.5;
-    width: 60%;
+    width: 100%;
   }
   .friendStuff {
     margin-top: 10px;
@@ -175,9 +174,10 @@
   }
 
   .divide {
-    width: 50%;
-    margin-left: 10%;
-    margin-bottom: 80px;
+    width: 100%;
+  }
+  .spacer-title-bot {
+    margin-bottom: 40px;
   }
   .title-section {
     width: 100%;
@@ -199,15 +199,25 @@
   }
 
   .par {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Quicksand", sans-serif;
+    line-height: 20px;
+    padding: 0px;
+    margin: 20px 0px;
   }
   h5 {
     font-family: "Quicksand", sans-serif;
+    margin: none;
+  }
+  .backgrounder {
+    margin: 0px 0px 0px 0px;
   }
   .ital {
     font-style: italic;
     font-family: "Quicksand", sans-serif;
-    font-size: 14px;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0px;
+    margin: 0px;
   }
 }

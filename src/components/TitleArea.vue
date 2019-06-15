@@ -16,7 +16,7 @@
         <p
           class="par"
         >President Trump has reached a deal with Canada and Mexico to restructure the North American Free Trade Agreement, hoping a new trilateral accord will reinvigorate the U.S. manufacturing sector.</p>
-        <h5>Backgrounder by James McBride and Mohammed Aly Sergie</h5>
+        <h5 class="backgrounder">Backgrounder by James McBride and Mohammed Aly Sergie</h5>
         <p class="ital">Last updated October 1, 2018</p>
       </div>
     </div>
@@ -30,6 +30,7 @@
         <i class="fas fa-print soc"></i>
       </div>
     </div>
+    <div class="spacer-title-bot"></div>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <i class="fas fa-bars burger"></i>
-    <h1>Council on Foreign Relations</h1>
+    <div class="site-title">Council on Foreign Relations</div>
     <div class="mem-search">
       <p class="mem">Member Login</p>
       <i class="fas fa-search glass"></i>
