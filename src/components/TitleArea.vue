@@ -1,3 +1,5 @@
+import styles from './title-area.module.css'
+
 <template>
   <div>
     <div class="title-section">
@@ -38,109 +40,6 @@ export default {
 };
 </script>
 
-<style scoped>
-.super-imp-title {
-  width: 100%;
-  padding-left: 10%;
-  margin-right: 6%;
-  overflow: hidden;
-  float: left;
-}
-.line {
-  display: grid;
-  background: grey;
-  border-radius: 6px;
-  font-size: 1.7px;
-  opacity: 0.5;
-  width: 60%;
-}
-.friendStuff {
-  margin-top: 10px;
-  margin-left: 10px;
-}
-.soc {
-  margin-right: 40px;
-  font-size: 20px;
-  color: black;
-  transition: color 1.2s;
-}
-.soc:hover {
-  color: orange;
-  cursor: pointer;
-  transition: color 0.5s;
-}
-
-.divide {
-  width: 50%;
-  margin-left: 10%;
-  margin-bottom: 80px;
-}
-.title-section {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  margin-top: 16px;
-}
-@media all and (max-width: 800px) {
-  .title-section {
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-  }
-  .super-imp-title {
-    width: 100%;
-    text-align: center;
-  }
-
-  .left-chunk {
-    width: 100%;
-    padding-left: 0;
-    margin-right: 0;
-    overflow: hidden;
-  }
-  .right-chunk {
-    width: 100%;
-    margin-top: 0;
-    padding-right: 0;
-  }
-}
-
-.left-chunk {
-  width: 40%;
-  padding-left: 10%;
-  margin-right: 6%;
-  overflow: hidden;
-  float: left;
-}
-.right-chunk {
-  width: 60%;
-  margin-top: 14px;
-  padding-right: 3%;
-  float: right;
-}
-
-p {
-  padding-top: 0px;
-  line-height: 20px;
-}
-
-h1 {
-  padding-top: 0px;
-  font-size: 40px;
-  font-weight: thin;
-  font-family: "Raleway", sans-serif;
-}
-
-.par {
-  font-size: 15px;
-  font-family: "Quicksand", sans-serif;
-}
-h5 {
-  font-family: "Quicksand", sans-serif;
-}
-.ital {
-  font-style: italic;
-  font-family: "Quicksand", sans-serif;
-  font-size: 14px;
-}
+<style>
+@import "./title-area.css";
 </style>
