@@ -4,17 +4,18 @@ html {
   padding: 0px;
   margin: 0px;
 }
-#app {
-  height: 100%;
-  max-width: 700px;
-  margin: auto;
-}
+
 body {
   margin: 0px;
   padding: 0px;
 }
 /* MOBILE VIEW */
 @media all and (max-width: 1000px) {
+  #app {
+    height: 100%;
+    max-width: 700px;
+    margin: auto;
+  }
   .sidebar {
     display: none;
   }
@@ -95,45 +96,58 @@ body {
 
 /* DESKTOP VIEW */
 @media all and (min-width: 1000px) {
-  .sidebar {
-    display: none;
-  }
-  .menu {
-    display: none;
+  #app {
+    height: 100%;
+    max-width: 1400px;
+    margin: auto;
   }
 
   .main {
-    margin-left: 300px;
+    margin-left: 10%;
     font-size: 25px;
     width: 66%;
+    margin: auto;
   }
 
   .container {
     display: flex;
-
-    padding-bottom: 26rem;
+    padding-bottom: 14rem;
     margin: 0;
   }
   .current-section {
     padding-top: 0;
   }
 
-  body {
-    margin: 0;
-    padding: 0;
-    font-stretch: expanded;
-    font-family: "Times New Roman", Times, serif;
-  }
   p {
-    font-size: 20px;
-    padding-top: 20px;
-    line-height: 34px;
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 3px;
+    line-height: 32px;
+    margin: 4px;
+  }
+
+  h1 {
+    width: 92%;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 0% 0% 4% 4%;
+    color: rgb(82, 35, 4);
+  }
+  .current-section {
+    padding-top: 50px;
+  }
+
+  .current-section input {
+    max-width: 3em;
   }
 
   .sidebar {
+    display: block;
     position: -webkit-sticky;
     position: sticky;
     top: 150px;
+    height: 50%;
     width: 15%;
     min-width: 100px;
     margin-left: 40px;
@@ -143,23 +157,11 @@ body {
     font-family: "Quicksand", sans-serif;
   }
 
-  h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 40px;
-    padding-top: 20px;
-  }
-
   .menu {
     padding: 0;
     list-style: none;
-  }
-
-  .current-section {
-    padding-top: 50px;
-  }
-
-  .current-section input {
-    max-width: 3em;
+    position: -webkit-sticky;
+    position: sticky;
   }
 
   .menu-item {
@@ -186,9 +188,5 @@ body {
   .data-img {
     height: 80%;
     width: 90%;
-  }
-
-  .container {
-    padding-bottom: 26rem;
   }
 }

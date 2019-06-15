@@ -19,8 +19,6 @@
         <h5 class="backgrounder">Backgrounder by James McBride and Mohammed Aly Sergie</h5>
         <p class="ital">Last updated October 1, 2018</p>
       </div>
-    </div>
-    <div class="divide">
       <div class="line">{{'o'}}</div>
       <div class="friendStuff">
         <i class="fab fa-facebook-f soc"></i>
@@ -30,6 +28,7 @@
         <i class="fas fa-print soc"></i>
       </div>
     </div>
+    <div class="divide"></div>
     <div class="spacer-title-bot"></div>
   </div>
 </template>
