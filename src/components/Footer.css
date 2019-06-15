@@ -1,104 +1,226 @@
-.footer {
-  max-width: 100vw;
-  bottom: 0;
-  width: 100%;
-  align-content: center;
-  color: white;
-  justify-content: center;
-  margin: auto;
-  background: #412c26;
-}
+/* Mobile View */
+@media all and (max-width: 1000px) {
+  .footer {
+    max-width: 100vw;
+    bottom: 0;
+    width: 100%;
+    align-content: center;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    background: #412c26;
+  }
 
-.footer-logo {
-  margin: 0;
-  padding: 0;
-  width: 30%;
-  margin-right: 40%;
-  padding: 4%;
-  float: left;
-  font-weight: 100;
-  font-size: 27px;
-  font-family: "Raleway", sans-serif;
-  cursor: pointer;
-}
+  .footer-logo {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    margin-right: 40%;
+    padding: 4%;
+    float: left;
+    font-weight: 100;
+    font-size: 27px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+  }
 
-.footer-button {
-  display: flex;
-  width: 100%;
-}
-.btn-item {
-  width: 20%;
-  margin: 2% 2% 2% 2%;
-  text-align: center;
-  font-size: 14px;
-  cursor: pointer;
-  color: white;
-  transition: color 0.8s;
-}
+  .footer-button {
+    display: flex;
+    width: 100%;
+  }
+  .btn-item {
+    width: 20%;
+    margin: 2% 2% 2% 2%;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.8s;
+  }
 
-.btn-item:hover {
-  color: rgb(255, 113, 19);
-  transition: color 0.8s;
-}
+  .btn-item:hover {
+    color: rgb(255, 113, 19);
+    transition: color 0.8s;
+  }
 
-.news-sec {
-  font-size: 14px;
-}
-.news-sec h2 {
-  font-size: 14px;
-  font-weight: none;
-  padding-bottom: 3px;
-  margin-left: 20px;
-  opacity: 0.4;
-  margin-bottom: 0;
-}
-.news-sec p {
-  margin-top: 0;
-  padding-top: 0;
-  font-weight: none;
-  font-size: 12px;
-  opacity: 0.4;
-  width: 70%;
-  line-height: 12px;
-}
+  .news-sec {
+    font-size: 14px;
+  }
+  .news-sec h2 {
+    font-size: 14px;
+    font-weight: none;
+    padding-bottom: 3px;
+    margin-left: 20px;
+    opacity: 0.4;
+    margin-bottom: 0;
+  }
+  .news-sec p {
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: none;
+    font-size: 12px;
+    opacity: 0.4;
+    width: 70%;
+    line-height: 12px;
+  }
 
-.form-area {
-  width: 90%;
-  margin: auto;
-}
-.email-form {
-  width: 100%;
-  margin: auto;
-  background: none;
-  border: none;
-  font-size: 18px;
-  line-height: 30px;
-  border-bottom: 2px solid white;
-}
+  .form-area {
+    width: 90%;
+    margin: auto;
+  }
+  .email-form {
+    width: 100%;
+    margin: auto;
+    background: none;
+    border: none;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 2px solid white;
+  }
 
-.bottom-of-footer {
-  width: 100%;
-  text-align: center;
-  margin: auto;
-  font-size: 11px;
-  padding: 10px 0px;
-  line-height: 20px;
-}
+  .bottom-of-footer {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 11px;
+    padding: 10px 0px;
+    line-height: 20px;
+  }
 
-.email-submit {
-  border: 1px solid white;
-  cursor: pointer;
-  border-radius: 3px;
-  height: 50px;
-  background: none;
-  color: white;
-  width: 100%;
-  margin: 20px 0px;
-  transition: all 0.3s;
-}
+  .email-submit {
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 50px;
+    background: none;
+    color: white;
+    width: 100%;
+    margin: 20px 0px;
+    transition: all 0.3s;
+  }
 
-.email-submit:hover {
-  background: rgb(148, 59, 0);
-  border: 1px solid rgb(148, 59, 0);
-  transition: all 0.3s;
+  .email-submit:hover {
+    background: rgb(148, 59, 0);
+    border: 1px solid rgb(148, 59, 0);
+    transition: all 0.3s;
+  }
+}
+/* Desktop View */
+@media all and (min-width: 1000px) {
+  .footer {
+    max-width: 100vw;
+    bottom: 0;
+    width: 100%;
+    align-content: center;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    background: #412c26;
+  }
+
+  .footer-logo {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    padding: 4%;
+    float: left;
+    font-weight: 100;
+    font-size: 27px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+  }
+
+  .footer-button {
+    display: flex;
+    width: 40%;
+    padding-top: 4%;
+  }
+  .btn-item {
+    width: 30%;
+    margin: 0% 0% 0% 0%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.8s;
+  }
+
+  .btn-item:hover {
+    color: rgb(255, 113, 19);
+    transition: color 0.8s;
+  }
+
+  .news-sec {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .news-sec h2 {
+    font-size: 18px;
+    font-weight: none;
+    padding-bottom: 3px;
+    opacity: 0.7;
+    margin-bottom: 0;
+    width: 50%;
+    padding-right: 10%;
+    float: right;
+  }
+  .news-sec p {
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: none;
+    font-size: 15px;
+    opacity: 0.7;
+    width: 50%;
+    padding-right: 10%;
+    float: right;
+  }
+
+  .form-area {
+    width: 80%;
+    margin: auto;
+  }
+  .email-form {
+    width: 40%;
+    margin: auto;
+    background: none;
+    border: none;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 2px solid white;
+    color: white;
+    margin: 3%;
+  }
+
+  .email-form:focus {
+    outline: none;
+  }
+
+  .email-submit {
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 50px;
+    background: none;
+    color: white;
+    width: 20%;
+    margin: 20px 0px 0px 10px;
+    margin-left: 2%;
+    transition: all 0.3s;
+  }
+
+  .email-submit:hover {
+    background: rgb(148, 59, 0);
+    border: 1px solid rgb(148, 59, 0);
+    transition: all 0.3s;
+  }
+  .bottom-of-footer {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
+    padding: 10px 0px;
+    line-height: 20px;
+  }
 }

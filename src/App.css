@@ -111,7 +111,7 @@ body {
 
   .container {
     display: flex;
-    padding-bottom: 14rem;
+    padding-bottom: 8rem;
     margin: 0;
   }
   .current-section {

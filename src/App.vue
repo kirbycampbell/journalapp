@@ -43,8 +43,22 @@
             <p>Many economists also assert that the recent troubles of U.S. manufacturing have little to do with NAFTA, arguing that manufacturing in the United States was under stress decades before the treaty. Research by David Autor, David Dorn, and Gordon Hanson published in January 2016 found [PDF] that competition with China had a much bigger negative impact on U.S. jobs since 2001, when China joined the WTO. Hanson, an economist and trade expert at the University of California, San Diego, says that the steepest decline in manufacturing jobs, which fell from seventeen million to eleven million between 2000 and 2010, is mostly attributable to trade with China and underlying technological changes. “China is at the top of the list in terms of the employment impacts that we found since 2000, with technology second, and NAFTA far less important,” he says.</p>
             <p>In fact, says Hanson, NAFTA helped the U.S. auto sector compete with China. By contributing to the development of cross-border supply chains, NAFTA lowered costs, increased productivity, and improved U.S. competitiveness. This meant shedding some jobs in the United States as positions moved to Mexico, he argues, but without the pact, even more would have otherwise been lost. “Because Mexico is so close, you can have a regional industry cluster where goods can go back and forth. The manufacturing industries in the three countries can be very integrated,” he says. These sort of linkages, which have given U.S. automakers an advantage in relation to China, would be much more difficult without NAFTA’s tariff reductions and protections for intellectual property.</p>
             <p>Edward Alden, a senior fellow at the Council on Foreign Relations, says anxiety over trade deals has grown because wages haven’t kept pace with labor productivity while income inequality has risen. To some extent, he says, trade deals have hastened the pace of these changes in that they have “reinforced the globalization of the American economy.”</p>
+          </div>
+          <div>
             <h1>How has it affected the Mexican economy?</h1>
             <p>NAFTA gave a major boost to Mexican farm exports to the United States, which have tripled since NAFTA’s implementation. Hundreds of thousands of auto manufacturing jobs have also been created in the country, and most studies have found [PDF] that the pact had a positive impact on Mexican productivity and consumer prices.</p>
+            <p>The pact was the continuation of a decade of economic liberalization that saw the country transition from one of the world’s most protectionist economies to one of the most open to trade. Mexico had reduced many of its trade barriers upon joining the General Agreement on Tariffs and Trade (GATT), the precursor to the WTO, in 1986, but still had a pre-NAFTA average tariff level [PDF] of 10 percent.</p>
+            <p>Mexican policymakers saw NAFTA as an opportunity to both accelerate and “lock in” these hard won reforms to the Mexican economy. In addition to liberalizing trade, Mexico’s leaders reduced public debt, introduced a balanced budget rule, stabilized inflation, and built up the country’s foreign reserves. Thus while Mexico was hard hit [PDF] by the 2008 U.S. recession due to its dependence on exports to the U.S. market—in 2009 Mexican exports to the United States fell 17 percent while its economy contracted by over 6 percent—its economy was able to bounce back relatively quickly. Mexico returned to growth in 2010, its GDP expanding over 5 percent, and subsequently falling to around 2 percent in 2014 and 2015.</p>
+            <p>But Mexico’s NAFTA experience has suffered from a disconnect between the promises of some of its supporters—that the pact would deliver rapid growth, raise wages, and reduce emigration—and the deal’s more mixed outcomes. Between 1993 and 2013, Mexico’s economy grew at an average rate of just 1.3 percent a year during a period when Latin America was undergoing a major expansion. Poverty remains at the same levels as in 1994. And the expected “wage convergence” between U.S. and Mexican wages didn’t happen, with Mexico’s per capita income rising at an annual average of just 1.2 percent in that period—far slower than Latin American countries such as Brazil, Chile, and Peru.</p>
+            <p>
+              Continue Reading at
+              <a
+                href="https://www.cfr.org/backgrounder/naftas-economic-impact"
+                alt="original-site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >CFR.com</a>
+            </p>
           </div>
         </div>
       </div>
@@ -75,9 +89,7 @@ export default {
         "Introduction",
         "How does NAFTA fit into the broader debate over trade policy?",
         "How has NAFTA affected the U.S. economy?",
-        "How has it affected the Mexican economy?",
-        "What impact has it had on Canada?",
-        "What’s next for NAFTA?"
+        "How has it affected the Mexican economy?"
       ]
     };
   }

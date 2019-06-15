@@ -16,7 +16,7 @@
       <p>Sign up for a morning roundup of news and analysis from around the world.</p>
     </div>
     <div class="form-area">
-      <input class="email-form" placeholder="Email Address">
+      <input class="email-form" placeholder="Email Address" type="email" name="emailaddress">
       <input class="email-submit" type="submit">
     </div>
     <div class="bottom-of-footer">
