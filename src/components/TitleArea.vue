@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="title-outer">
     <div class="title-section">
       <div class="super-imp-title">NAFTA’s Economic Impact</div>
       <div class="right-chunk">
@@ -39,6 +39,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import "./title-area.css";
 </style>

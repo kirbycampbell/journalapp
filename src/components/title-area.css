@@ -1,5 +1,12 @@
 /* DESKTOP VIEW */
 @media all and (min-width: 800px) {
+  .title-outer {
+    width: 90%;
+    height: 160px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+  }
   .title-section {
     display: flex;
     width: 100vw;
@@ -104,6 +111,13 @@
 
 /* MOBILE VIEW */
 @media all and (max-width: 800px) {
+  .title-outer {
+    width: 90%;
+
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+  }
   .title-section {
     display: flex;
     width: 100vw;
@@ -120,6 +134,11 @@
     width: 100%;
     margin-top: 0;
     padding-right: 0;
+  }
+
+  img {
+    max-width: 100%;
+    margin: auto;
   }
 
   .super-imp-title {
