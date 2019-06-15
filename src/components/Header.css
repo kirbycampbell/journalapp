@@ -35,13 +35,13 @@ h1 {
   cursor: pointer;
   color: rgb(204, 138, 17);
   font-size: 15px;
+  padding: 0;
 }
 .mem:hover {
   color: black;
 }
 .glass {
   margin-top: 18px;
-  margin-left: 20px;
   cursor: pointer;
 }
 

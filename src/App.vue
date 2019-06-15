@@ -15,7 +15,7 @@
 
       <div class="main" v-scroll-spy="{data: 'section'}">
         <div>
-          <h1 class="first-h1">Introduction</h1>
+          <h1>Introduction</h1>
           <p>The North American Free Trade Agreement, or NAFTA, is a three-country accord negotiated by the governments of Canada, Mexico, and the United States that entered into force in January 1994. NAFTA’s terms, which were implemented gradually through January 2008, eliminated most tariffs on products traded between the three countries. Liberalization of trade in agriculture, textiles, and automobile manufacturing was a major focus. The deal also sought to protect intellectual property, establish dispute resolution mechanisms, and, through side agreements, implement labor and environmental safeguards.</p>
           <p>NAFTA fundamentally reshaped North American economic relations, driving unprecedented integration between Canada’s and the United States’ developed economies and Mexico’s developing one. In the United States, NAFTA enjoyed bipartisan backing; it was negotiated by Republican President George H.W. Bush, passed a Democratic-controlled Congress, and was implemented under Democratic President Bill Clinton. It encouraged regional trade to more than triple, and cross-border investment between the three countries also grew significantly.</p>
           <p>Yet NAFTA has remained a perennial target in the broader debate over free trade. President Donald J. Trump says it has undermined U.S. jobs and manufacturing, and in October 2018 his administration struck a deal with Canada and Mexico on an updated version of the pact, to be known as the U.S.-Mexico-Canada Agreement, or USMCA.</p>
