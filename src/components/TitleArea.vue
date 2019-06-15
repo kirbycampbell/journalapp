@@ -1,4 +1,3 @@
-import styles from './title-area.module.css'
 
 <template>
   <div>
