@@ -118,6 +118,11 @@
     background: #412c26;
   }
 
+  .footer-max {
+    max-width: 1400px;
+    margin: auto;
+  }
+
   .footer-logo {
     margin: 0;
     padding: 0;
@@ -133,7 +138,7 @@
   .footer-button {
     display: flex;
     width: 40%;
-    padding-top: 4%;
+    padding-top: 50px;
   }
   .btn-item {
     width: 30%;
